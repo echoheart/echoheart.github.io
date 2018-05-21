@@ -3,7 +3,7 @@ title: BY Blog
 SEOTitle: 李满堂的博客 | BY Blog
 header-img: img/post-bg-desk.jpg
 email: limantang01@gmail.com
-description: "Every day is an opportunity to learn and grow"
+description: "Everyday is an opportunity to learn and grow"
 keyword: "BY, BY Blog, 李满堂的博客, limantang, 李满堂, iOS, Apple, iPhone"
 url: "https://echoheart.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
@@ -99,15 +99,10 @@ service-worker: true
 # Friends
 friends: [
     {
-        title: "WY",
-        href: "http://zhengwuyang.com"
-    },{
-        title: "简书·BY",
-        href: "http://www.jianshu.com/u/e71990ada2fd"
-    },{
         title: "Apple",
         href: "https://apple.com"
-    },{
+    },
+    {
         title: "Apple Developer",
         href: "https://developer.apple.com/"
     }
