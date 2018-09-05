@@ -248,10 +248,9 @@ while(i < 3)
 
 ``break和continue 语句都可以起到跳转作用改变代码原有的执行顺序
 ``
-```angularjs
+```$xslt
 //  break的含义是终止循环break(终止循环后不会再在判断条件语句)
 //  continue的含义是终止本次循环,开始下次循环
-
 for(var i = 0; i < 10; i++) {
     console.log(i);
     if (i === 5) {
@@ -265,7 +264,6 @@ for(var i = 0; i < 10; i++) {
     console.log(i);
 }
 //  可以感受一下上面两种写法的不同(是完完全全的退出了循环哦)
-
 for(var i = 0;i < 10; i++) {
     console.log(i);
     if(i === 5) {
@@ -278,7 +276,6 @@ for(var i = 0;i < 10; i++) {
     }
     console.log(i);
 }
-
 //  感受一下上面的两种写法(如果将循环内部的判断条件写在执行语句的后面其实不会有任何作用)
 ```
 
