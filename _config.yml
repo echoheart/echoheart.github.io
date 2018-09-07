@@ -95,10 +95,10 @@ service-worker: true
 friends: [
     {
         title: "佩奇",
-        href: "https://youtube.com"
+        href: "#"
     },
     {
         title: "乔治",
-        href: "https://youtube.com/"
+        href: "#"
     }
 ]
