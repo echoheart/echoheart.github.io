@@ -1,4 +1,3 @@
-
 ---
 layout:     post
 title:      javaScript读书笔记-字符串(string)

@@ -2,34 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ff9fe1d7-aa94-4cf2-b42a-12f792848297" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/_posts/2018-09-17-javaScript读书笔记简单总结-字符串(string).md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/avatar_g.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/avatar_m.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/post-bg-YesOrNo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/post-bg-alibaba.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/post-bg-android.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/post-bg-coffee.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/post-bg-cook.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/post-bg-debug.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/post-bg-desk.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/post-bg-e2e-ux.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/post-bg-iWatch.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/post-bg-ioses.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/post-bg-keybord.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/post-bg-map.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/post-bg-miui6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/post-bg-mma-0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/post-bg-mma-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/post-bg-mma-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/post-bg-mma-4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/post-bg-mma-5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/post-bg-mma-6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/post-bg-rwd.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/post-bg-swift.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/post-bg-swift2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/post-bg-universe.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/post-bg-unix-linux.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2018-09-17-javaScript读书笔记简单总结-字符串(string).md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-09-17-javaScript读书笔记简单总结-字符串(string).md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -167,9 +140,7 @@
         <entry file="file://$PROJECT_DIR$/_posts/2018-09-17-javaScript读书笔记简单总结-字符串(string).md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="1564">
-                <caret line="68" column="17" lean-forward="true" selection-start-line="68" selection-start-column="17" selection-end-line="68" selection-end-column="17" />
-              </first_editor>
+              <first_editor />
               <second_editor />
             </state>
           </provider>
@@ -295,12 +266,12 @@
       <workItem from="1536760118600" duration="1117000" />
       <workItem from="1536762272382" duration="773000" />
       <workItem from="1536999731993" duration="7625000" />
-      <workItem from="1537194341757" duration="1857000" />
+      <workItem from="1537194341757" duration="1955000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33667000" />
+    <option name="totallyTimeSpent" value="33765000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -516,9 +487,7 @@
     <entry file="file://$PROJECT_DIR$/_posts/2018-09-17-javaScript读书笔记简单总结-字符串(string).md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="1564">
-            <caret line="68" column="17" lean-forward="true" selection-start-line="68" selection-start-column="17" selection-end-line="68" selection-end-column="17" />
-          </first_editor>
+          <first_editor />
           <second_editor />
         </state>
       </provider>
