@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      javaScript读书笔记-字符串(string)
-subtitle:   javaScript读书笔记-字符串(string)
+title:      javaScript读书笔记-对象数组
+subtitle:   javaScript读书笔记-对象数组
 date:       2018-09-17
 author:     limantang
 header-img: img/post-bg-ios9-web.jpg
