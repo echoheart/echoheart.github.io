@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ff9fe1d7-aa94-4cf2-b42a-12f792848297" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/_posts/2018-09-17-javaScript读书笔记简单总结-字符串(string).md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-09-17-javaScript读书笔记简单总结-字符串(string).md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_posts/2018-09-20-javaScript读书笔记简单总结-对象数组.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -50,15 +51,15 @@
     <session id="-315702933">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="9" />
+          <entry key="project.closed" value="10" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.3" value="2" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="3" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="9" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -68,7 +69,7 @@
           <entry key="html" value="6" />
           <entry key="ico" value="1" />
           <entry key="json" value="1" />
-          <entry key="md" value="14" />
+          <entry key="md" value="15" />
           <entry key="png" value="2" />
           <entry key="yml" value="1" />
         </counts>
@@ -78,21 +79,21 @@
           <entry key="HTML" value="6" />
           <entry key="Image" value="3" />
           <entry key="JSON" value="1" />
-          <entry key="Markdown" value="14" />
+          <entry key="Markdown" value="15" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="YAML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="md" value="10404" />
+          <entry key="md" value="12992" />
           <entry key="yml" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JavaScript" value="30" />
-          <entry key="Markdown" value="10374" />
+          <entry key="Markdown" value="12962" />
           <entry key="YAML" value="3" />
         </counts>
       </usages-collector>
@@ -136,11 +137,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2018-09-17-javaScript读书笔记简单总结-字符串(string).md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor />
+              <first_editor>
+                <caret selection-end-line="12" selection-end-column="5" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/2018-09-20-javaScript读书笔记简单总结-对象数组.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="270">
+                <caret line="193" column="3" lean-forward="true" selection-start-line="193" selection-start-column="3" selection-end-line="193" selection-end-column="3" />
+              </first_editor>
               <second_editor />
             </state>
           </provider>
@@ -167,6 +182,7 @@
         <option value="$PROJECT_DIR$/_posts/2018-09-05-JavaScript读书笔记简单总结-基本语法(一).md" />
         <option value="$PROJECT_DIR$/_posts/2018-09-15-javaScript读书笔记简单总结-数值(number).md" />
         <option value="$PROJECT_DIR$/_posts/2018-09-17-javaScript读书笔记简单总结-字符串(string).md" />
+        <option value="$PROJECT_DIR$/_posts/2018-09-20-javaScript读书笔记简单总结-对象数组.md" />
       </list>
     </option>
   </component>
@@ -266,18 +282,19 @@
       <workItem from="1536760118600" duration="1117000" />
       <workItem from="1536762272382" duration="773000" />
       <workItem from="1536999731993" duration="7625000" />
-      <workItem from="1537194341757" duration="1955000" />
+      <workItem from="1537194341757" duration="2237000" />
+      <workItem from="1537453716261" duration="3651000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33765000" />
+    <option name="totallyTimeSpent" value="37698000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <frame x="0" y="0" width="1004" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24713683" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24618515" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Grunt " order="3" side_tool="true" />
@@ -487,7 +504,19 @@
     <entry file="file://$PROJECT_DIR$/_posts/2018-09-17-javaScript读书笔记简单总结-字符串(string).md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor />
+          <first_editor>
+            <caret selection-end-line="12" selection-end-column="5" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2018-09-20-javaScript读书笔记简单总结-对象数组.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="270">
+            <caret line="193" column="3" lean-forward="true" selection-start-line="193" selection-start-column="3" selection-end-line="193" selection-end-column="3" />
+          </first_editor>
           <second_editor />
         </state>
       </provider>
