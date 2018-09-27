@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ff9fe1d7-aa94-4cf2-b42a-12f792848297" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/_posts/2018-09-20-javaScript读书笔记简单总结-对象数组.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2018-09-20-javaScript读书笔记简单总结-对象数组.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-09-20-javaScript读书笔记简单总结-对象数组.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -51,15 +51,15 @@
     <session id="-315702933">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="10" />
+          <entry key="project.closed" value="11" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.3" value="2" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="3" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="10" />
+          <entry key="project.opened" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -86,14 +86,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="md" value="12992" />
+          <entry key="md" value="15026" />
           <entry key="yml" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JavaScript" value="30" />
-          <entry key="Markdown" value="12962" />
+          <entry key="Markdown" value="14996" />
           <entry key="YAML" value="3" />
         </counts>
       </usages-collector>
@@ -153,8 +153,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2018-09-20-javaScript读书笔记简单总结-对象数组.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="270">
-                <caret line="193" column="3" lean-forward="true" selection-start-line="193" selection-start-column="3" selection-end-line="193" selection-end-column="3" />
+              <first_editor relative-caret-position="625">
+                <caret line="326" column="86" selection-start-line="326" selection-start-column="86" selection-end-line="326" selection-end-column="86" />
               </first_editor>
               <second_editor />
             </state>
@@ -162,6 +162,11 @@
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>keys</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -205,8 +210,8 @@
     <dismissed value="$PROJECT_DIR$/package.json" />
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1680" />
-    <option name="height" value="1050" />
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -216,7 +221,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -238,11 +242,13 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="fa&#9;FILE&#9;file:///Users/limantang/myProjects/myBlog/img/favicon.ico" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="editorconfig.notification" value="{&#10;};&#10;" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -283,18 +289,19 @@
       <workItem from="1536762272382" duration="773000" />
       <workItem from="1536999731993" duration="7625000" />
       <workItem from="1537194341757" duration="2237000" />
-      <workItem from="1537453716261" duration="3651000" />
+      <workItem from="1537453716261" duration="4302000" />
+      <workItem from="1538064659031" duration="2545000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37698000" />
+    <option name="totallyTimeSpent" value="40894000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1004" height="1050" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24618515" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16772375" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Grunt " order="3" side_tool="true" />
@@ -514,8 +521,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2018-09-20-javaScript读书笔记简单总结-对象数组.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="270">
-            <caret line="193" column="3" lean-forward="true" selection-start-line="193" selection-start-column="3" selection-end-line="193" selection-end-column="3" />
+          <first_editor relative-caret-position="625">
+            <caret line="326" column="86" selection-start-line="326" selection-start-column="86" selection-end-line="326" selection-end-column="86" />
           </first_editor>
           <second_editor />
         </state>
