@@ -92,13 +92,13 @@ service-worker: true
 
 
 # Friends
-friends: [
-    {
-        title: "佩奇",
-        href: "#"
-    },
-    {
-        title: "乔治",
-        href: "#"
-    }
-]
+#friends: [
+#    {
+#        title: "佩奇",
+#        href: "#"
+#    },
+#    {
+#        title: "乔治",
+#        href: "#"
+#    }
+#]
