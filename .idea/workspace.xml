@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ff9fe1d7-aa94-4cf2-b42a-12f792848297" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2018-09-20-javaScript读书笔记简单总结-对象数组.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-09-20-javaScript读书笔记简单总结-对象数组.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2018-08-03-React_key.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-08-03-React_key.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -51,15 +51,15 @@
     <session id="-315702933">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="11" />
+          <entry key="project.closed" value="12" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.2" value="2" />
-          <entry key="project.open.time.3" value="2" />
+          <entry key="project.open.time.3" value="3" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="3" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="11" />
+          <entry key="project.opened" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -69,7 +69,7 @@
           <entry key="html" value="6" />
           <entry key="ico" value="1" />
           <entry key="json" value="1" />
-          <entry key="md" value="15" />
+          <entry key="md" value="17" />
           <entry key="png" value="2" />
           <entry key="yml" value="1" />
         </counts>
@@ -79,7 +79,7 @@
           <entry key="HTML" value="6" />
           <entry key="Image" value="3" />
           <entry key="JSON" value="1" />
-          <entry key="Markdown" value="15" />
+          <entry key="Markdown" value="17" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="YAML" value="1" />
         </counts>
@@ -149,12 +149,36 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2018-09-20-javaScript读书笔记简单总结-对象数组.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
               <first_editor relative-caret-position="625">
                 <caret line="326" column="86" selection-start-line="326" selection-start-column="86" selection-end-line="326" selection-end-column="86" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/2018-08-03-React_key.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="230">
+                <caret line="10" column="11" lean-forward="true" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/2018-08-19-React项目小结.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor>
+                <caret selection-end-line="11" selection-end-column="3" />
               </first_editor>
               <second_editor />
             </state>
@@ -188,6 +212,7 @@
         <option value="$PROJECT_DIR$/_posts/2018-09-15-javaScript读书笔记简单总结-数值(number).md" />
         <option value="$PROJECT_DIR$/_posts/2018-09-17-javaScript读书笔记简单总结-字符串(string).md" />
         <option value="$PROJECT_DIR$/_posts/2018-09-20-javaScript读书笔记简单总结-对象数组.md" />
+        <option value="$PROJECT_DIR$/_posts/2018-08-03-React_key.md" />
       </list>
     </option>
   </component>
@@ -221,6 +246,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -242,7 +268,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -290,12 +315,13 @@
       <workItem from="1536999731993" duration="7625000" />
       <workItem from="1537194341757" duration="2237000" />
       <workItem from="1537453716261" duration="4302000" />
-      <workItem from="1538064659031" duration="2545000" />
+      <workItem from="1538064659031" duration="2593000" />
+      <workItem from="1538125230380" duration="33000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40894000" />
+    <option name="totallyTimeSpent" value="40975000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -436,24 +462,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-08-03-React_key.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-08-19-React项目小结.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor>
-            <caret selection-end-line="11" selection-end-column="3" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/img/favicon.ico">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -523,6 +531,26 @@
         <state split_layout="FIRST">
           <first_editor relative-caret-position="625">
             <caret line="326" column="86" selection-start-line="326" selection-start-column="86" selection-end-line="326" selection-end-column="86" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2018-08-19-React项目小结.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret selection-end-line="11" selection-end-column="3" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2018-08-03-React_key.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="230">
+            <caret line="10" column="11" lean-forward="true" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
           </first_editor>
           <second_editor />
         </state>
