@@ -31,7 +31,7 @@ tags:
 
    undefined和null可以作为其他类型的子类型存在
 
-2. ts额外支持any, 枚举类型, void类型 Tuple元组类型 nerve类型额外五种
+2. ts额外支持any, 枚举类型, void类型 Tuple元组类型 never类型额外五种
 
    ```tsx
    const a: any = 1;
