@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ff9fe1d7-aa94-4cf2-b42a-12f792848297" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/_posts/2019-07-05-TypeScript学习笔记-类.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_posts/2019-07-05-TypeScript学习笔记-泛型.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -58,8 +57,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2019-07-05-TypeScript学习笔记-类.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2019-07-05-TypeScript学习笔记-类.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2019-07-05-TypeScript学习笔记-类.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="315">
+                <caret line="15" lean-forward="true" selection-end-line="40" selection-end-column="3" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2019-07-05-TypeScript学习笔记-泛型.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/2019-07-05-TypeScript学习笔记-泛型.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
               <first_editor relative-caret-position="315">
@@ -111,6 +122,7 @@
         <option value="$PROJECT_DIR$/_posts/2019-07-01-TypeScript学习笔记-数据类型.md" />
         <option value="$PROJECT_DIR$/_posts/2019-07-04-TypeScript学习笔记-接口.md" />
         <option value="$PROJECT_DIR$/_posts/2019-07-05-TypeScript学习笔记-类.md" />
+        <option value="$PROJECT_DIR$/_posts/2019-07-05-TypeScript学习笔记-泛型.md" />
       </list>
     </option>
   </component>
@@ -232,12 +244,12 @@
       <workItem from="1562146216985" duration="562000" />
       <workItem from="1562146877755" duration="281000" />
       <workItem from="1562209728100" duration="101000" />
-      <workItem from="1562292957755" duration="78000" />
+      <workItem from="1562292957755" duration="179000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61471000" />
+    <option name="totallyTimeSpent" value="61572000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -292,7 +304,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_posts/2018-09-06-JavaScript读书笔记简单总结-数据类型.md" />
     <entry file="file://$PROJECT_DIR$/_posts/2018-09-05-JavaScript读书笔记简单总结-基本语法(一).md" />
     <entry file="file://$PROJECT_DIR$/_posts/2018-09-15-javaScript读书笔记简单总结-数值(number).md" />
     <entry file="file://$PROJECT_DIR$/_posts/2018-09-17-javaScript读书笔记简单总结-字符串(string).md" />
@@ -486,6 +497,16 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2019-07-05-TypeScript学习笔记-类.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="315">
+            <caret line="15" lean-forward="true" selection-end-line="40" selection-end-column="3" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2019-07-05-TypeScript学习笔记-泛型.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="315">
