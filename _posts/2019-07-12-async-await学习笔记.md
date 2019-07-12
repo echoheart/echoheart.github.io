@@ -66,7 +66,58 @@ tags:
    test();
    ```
 
-3. 为什么需要await
+3. 同时两个异步可以用await处理吗
+
+```tsx
+function fn() {
+  return new Promise((resolve, reject) => {
+    setTimeout(() => {
+      let n = parseInt(String(Math.random() * 6 + 1), 10);
+      if (n >= 3) {
+        resolve(n);
+      } else {
+        reject(n)
+      }
+    }, 1000)
+  })
+}
+Promise.all([fn(), fn()])
+  .then((n) => {
+  	//	两个都成功执行这里
+}, (n) => {
+  //	失败其一执行这里
+})
+//	这也是Promise的用法, 接受一个数组,数组的每一项都是一个Promise对象
+```
+
+如果要想改写成await的形式, 需要记住一点await必须返回一个Promise对象
+
+```tsx
+function fn() {
+  return new Promise((resolve, reject) => {
+    setTimeout(() => {
+      let n = parseInt(String(Math.random() * 6 + 1), 10);
+      if (n >= 3) {
+        resolve(n);
+      } else {
+        reject(n)
+      }
+    }, 1000)
+  })
+}
+async function test() {
+  try {
+    let n = Promise.all([fn(), fn()]);
+  	console.log(n);
+    //	如果两个异步函数都成功 n的结果是个数组
+  } catch(error) {
+    console.log(error, '捕获到错误');
+  }
+}
+test();
+```
+
+4. 为什么需要await
 
    它会使你的语法和结构更像是标准的同步函数...
 
