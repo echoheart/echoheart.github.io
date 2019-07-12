@@ -32,8 +32,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2019-07-12-async-await学习笔记.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="441">
-                <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+              <first_editor relative-caret-position="545">
+                <caret line="130" column="26" selection-start-line="130" selection-start-column="26" selection-end-line="130" selection-end-column="26" />
               </first_editor>
               <second_editor />
             </state>
@@ -205,12 +205,12 @@
       <workItem from="1562146877755" duration="281000" />
       <workItem from="1562209728100" duration="101000" />
       <workItem from="1562292957755" duration="279000" />
-      <workItem from="1562918877848" duration="362000" />
+      <workItem from="1562918877848" duration="521000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62034000" />
+    <option name="totallyTimeSpent" value="62193000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -479,8 +479,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2019-07-12-async-await学习笔记.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="441">
-            <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+          <first_editor relative-caret-position="545">
+            <caret line="130" column="26" selection-start-line="130" selection-start-column="26" selection-end-line="130" selection-end-column="26" />
           </first_editor>
           <second_editor />
         </state>

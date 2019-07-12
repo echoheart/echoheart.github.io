@@ -9,7 +9,6 @@ catalog: true
 tags:
     - ES6
 ---
-
 # async await学习笔记
 
 1. await必须放在async函数里面(语法规定)
@@ -128,3 +127,5 @@ test();
    不如then方法, Promise写法还是蛮好看的
 
    但是对于大脑负担,await还是减少了大脑的思考🤔
+
+5. async函数的结果也是一个Promise对象
