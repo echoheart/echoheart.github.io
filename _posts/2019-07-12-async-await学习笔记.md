@@ -106,7 +106,7 @@ function fn() {
 }
 async function test() {
   try {
-    let n = Promise.all([fn(), fn()]);
+    let n = await Promise.all([fn(), fn()]);
   	console.log(n);
     //	如果两个异步函数都成功 n的结果是个数组
   } catch(error) {
@@ -129,3 +129,4 @@ test();
    但是对于大脑负担,await还是减少了大脑的思考🤔
 
 5. async函数的结果也是一个Promise对象
+6. 贤贤读我博客发现了一个bug, 我忘记写await了, 以后写博客必须每一行代码都要运行之后再贴上来😅
