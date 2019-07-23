@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ff9fe1d7-aa94-4cf2-b42a-12f792848297" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/_posts/2019-07-23-数学归纳法.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2019-07-22-二进制笔记.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2019-07-22-二进制笔记.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,25 +16,25 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="2019-07-16-受控组件和非受控组件.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2019-07-16-受控组件和非受控组件.md">
+    <leaf>
+      <file leaf-file-name="2019-07-23-数学归纳法.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/2019-07-23-数学归纳法.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="379">
-                <caret line="20" selection-start-line="20" selection-end-line="20" />
+              <first_editor relative-caret-position="653">
+                <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2019-07-22-二进制笔记.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2019-07-22-二进制笔记.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2019-07-22-二进制笔记.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="336">
-                <caret line="60" column="54" selection-start-line="60" selection-start-column="54" selection-end-line="60" selection-end-column="54" />
+              <first_editor relative-caret-position="357">
+                <caret line="41" lean-forward="true" selection-end-line="109" />
               </first_editor>
               <second_editor />
             </state>
@@ -87,6 +87,7 @@
         <option value="$PROJECT_DIR$/_posts/2018-08-03-React-key.md" />
         <option value="$PROJECT_DIR$/_posts/2019-07-12-async-await学习笔记.md" />
         <option value="$PROJECT_DIR$/_posts/2019-07-22-二进制笔记.md" />
+        <option value="$PROJECT_DIR$/_posts/2019-07-23-数学归纳法.md" />
       </list>
     </option>
   </component>
@@ -108,7 +109,7 @@
   <component name="PackageJsonUpdateNotifier">
     <dismissed value="$PROJECT_DIR$/package.json" />
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
@@ -215,27 +216,29 @@
       <workItem from="1563330433253" duration="309000" />
       <workItem from="1563785331178" duration="52000" />
       <workItem from="1563785396655" duration="76000" />
-      <workItem from="1563785548326" duration="47000" />
+      <workItem from="1563785548326" duration="260000" />
+      <workItem from="1563795803715" duration="25000" />
+      <workItem from="1563848448981" duration="153000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63464000" />
+    <option name="totallyTimeSpent" value="63855000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="877" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" anchor="right" content_ui="combo" id="Project" order="3" visible="true" weight="0.25679544" />
+      <window_info active="true" anchor="right" content_ui="combo" id="Project" order="3" visible="true" weight="0.2639485" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info id="Grunt " order="2" side_tool="true" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info id="npm" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="2" />
+      <window_info id="npm" order="1" side_tool="true" />
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.17676143" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.17670158" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -275,7 +278,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_posts/2018-1009-javaScript读书笔记Array对象.md" />
     <entry file="file://$PROJECT_DIR$/_posts/2018-09-20-javaScript读书笔记简单总结-对象数组.md" />
     <entry file="file://$PROJECT_DIR$/_posts/2019-03-20-算法-两数之和.md" />
     <entry file="file://$PROJECT_DIR$/img/favicon.ico">
@@ -515,7 +517,7 @@
     <entry file="file://$PROJECT_DIR$/_posts/2019-07-16-受控组件和非受控组件.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="379">
+          <first_editor relative-caret-position="420">
             <caret line="20" selection-start-line="20" selection-end-line="20" />
           </first_editor>
           <second_editor />
@@ -525,8 +527,18 @@
     <entry file="file://$PROJECT_DIR$/_posts/2019-07-22-二进制笔记.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="336">
-            <caret line="60" column="54" selection-start-line="60" selection-start-column="54" selection-end-line="60" selection-end-column="54" />
+          <first_editor relative-caret-position="357">
+            <caret line="41" lean-forward="true" selection-end-line="109" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2019-07-23-数学归纳法.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="653">
+            <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
           </first_editor>
           <second_editor />
         </state>
