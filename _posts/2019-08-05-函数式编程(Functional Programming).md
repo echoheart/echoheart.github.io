@@ -244,7 +244,7 @@ tags:
 
     ```tsx
     function Pager(props) {
-      const buttons = Array.apply(null, props.total)
+      const buttons = Array.apply(null, { length: props.total })
         .map((item, index) => {
           return index + 1;
         })
@@ -259,19 +259,19 @@ tags:
           return false;
         })
         .reduce((prev, current) => {
-          const last = prev[prev.length - 1];
+          const last = prev[prev.length - 1] || current;
           return prev.concat(current - last > 1 ? [-1, current] : [current]);
         }, [])
         .map((item, index) => {
-          item === -1 ?
-          <span>...</span>
-            :
-            <button>{item}</button>
+          (item === -1 ?
+                     <span>...</span>
+                       :
+                       <button>{item}</button>)
         })
     
         return (
           <div>
-            {button}
+            {buttons}
           </div>
         )
     }
