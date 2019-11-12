@@ -240,52 +240,52 @@ tags:
 
 10. 不使用赋值编码例子(Paper组件)
 
-```typescript
-    function Pager(props) {
-      const buttons = Array.apply(null, { length: props.total })
-        .map((item, index) => {
-          return index + 1;
-        })
-        .filter((item, index) => {
-          if (item === 1) {
-            return true;
-          } else if(item === props.total) {
-            return true;
-          } else if (Math.abs(item - props.current) <= 2) {
-            return true;
-          }
-          return false;
-        })
-        .reduce((prev, current) => {
-          const last = prev[prev.length - 1] || current;
-          return prev.concat(current - last > 1 ? [-1, current] : [current]);
-        }, [])
-        .map((item, index) => {
-          (item === -1 ?
-                     <span>...</span>
-                       :
-                       <button>{item}</button>)
-        })
-    
-        return (
-          <div>
-            {buttons}
-          </div>
-        )
-    }
-```
+    ```typescript
+        function Pager(props) {
+          const buttons = Array.apply(null, { length: props.total })
+            .map((item, index) => {
+              return index + 1;
+            })
+            .filter((item, index) => {
+              if (item === 1) {
+                return true;
+              } else if(item === props.total) {
+                return true;
+              } else if (Math.abs(item - props.current) <= 2) {
+                return true;
+              }
+              return false;
+            })
+            .reduce((prev, current) => {
+              const last = prev[prev.length - 1] || current;
+              return prev.concat(current - last > 1 ? [-1, current] : [current]);
+            }, [])
+            .map((item, index) => {
+              (item === -1 ?
+                         <span>...</span>
+                           :
+                           <button>{item}</button>)
+            })
+        
+            return (
+              <div>
+                {buttons}
+              </div>
+            )
+        }
+    ```
 
 11. 函数式优缺点及特点
 
-- 函数编程都是垃圾(大量中间无用变量GC)
-
-- 不是有等于号就是赋值, 第一次的等于号是定义, 第二次是赋值
-
-- 以let n = 1为例, 如果没有赋值 只是给1取个名字叫n, 如果存在赋值 n更像是个容器 可以保存不同的值
-
-- 广泛采用赋值的程序设计叫做 命令式/指令式程序设计
-
-- 赋值带来的问题很多, 命令式遇到克隆很让人头疼
+    - 函数编程都是垃圾(大量中间无用变量GC)
+    
+    - 不是有等于号就是赋值, 第一次的等于号是定义, 第二次是赋值
+    
+    - 以let n = 1为例, 如果没有赋值 只是给1取个名字叫n, 如果存在赋值 n更像是个容器 可以保存不同的值
+    
+    - 广泛采用赋值的程序设计叫做 命令式/指令式程序设计
+    
+    - 赋值带来的问题很多, 命令式遇到克隆很让人头疼
         
         
 
@@ -297,34 +297,34 @@ tags:
 
    这个赋值过程就会导致克隆的对象是共享一个数据源的问题
 
-- 函数式强调不可变对象
-
-- 函数式编程还是会存在赋值的,在改变外界状态时还是会赋值,这样的赋值操作需要单独写在专门处理副作用的函数当中
-
-- 函数式特点
-
-- 可证明公理化
-
-- 更加强调执行结果而不是过程
-
-```typescript
-    // 斐波那切数列
-    // 函数式
-    f(n) n === 1 : 1
-         n > 1 : f(n -1) * n
-      
-    // 过程式
-    result
-    for(i ~ n) {
-        result *= i
-    }
-```
+    - 函数式强调不可变对象
     
-- 函数是一等公民(函数可以作为参数), 高阶函数
-- 纯函数, 拒绝副作用(赋值就是副作用)
-- 不可变数据(不可以赋值)
-- 数据即代码
-- 引用透明
+    - 函数式编程还是会存在赋值的,在改变外界状态时还是会赋值,这样的赋值操作需要单独写在专门处理副作用的函数当中
+    
+    - 函数式特点
+    
+    - 可证明公理化
+    
+    - 更加强调执行结果而不是过程
+
+    ```typescript
+        // 斐波那切数列
+        // 函数式
+        f(n) n === 1 : 1
+             n > 1 : f(n -1) * n
+          
+        // 过程式
+        result
+        for(i ~ n) {
+            result *= i
+        }
+    ```
+    
+    - 函数是一等公民(函数可以作为参数), 高阶函数
+    - 纯函数, 拒绝副作用(赋值就是副作用)
+    - 不可变数据(不可以赋值)
+    - 数据即代码
+    - 引用透明
 
 12. map&forEach&filter&reduce区别和联系
 
