@@ -77,15 +77,15 @@ tags:
 
     看下面代码
     
-       ```typescript
-           (define (squ x) (* x x))
-           (define (squsum a b)
-                        (+ (* a a)
-                     (* b b)))
-           (define (f z)
-                        (squsum z
-                                        (+ z 1)))
-       ```
+   ```typescript
+       (define (squ x) (* x x))
+       (define (squsum a b)
+                    (+ (* a a)
+                 (* b b)))
+       (define (f z)
+                    (squsum z
+                    (+ z 1)))
+   ```
     
     上面f函数改写为数学表达式为
     
