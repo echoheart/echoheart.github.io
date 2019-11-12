@@ -12,7 +12,7 @@ tags:
 
 # TypeScript学习笔记-接口
 
-    1. 接口写法
+1. 接口写法
     
    ```typescript
      interface 接口名 {
@@ -25,7 +25,7 @@ tags:
    ```
    接口就是描述一个对象有什么属性和方法
 
-    2. 接口的用法
+2. 接口的用法
 
    ```typescript
          interface Shape {
@@ -54,7 +54,7 @@ tags:
          person.name = 'other'	//	error
    ```
 
-    3. 额外的属性检查
+3. 额外的属性检查
 
    ```typescript
        interface SquareConfig {
@@ -89,7 +89,7 @@ tags:
        //	它就是将这个对象赋值给一个另一个变量： 因为 squareOptions不会经过额外属性检查，所以编译器不会报错。
    ```
 
-    4. 定义接口描述函数
+4. 定义接口描述函数
 
    ```typescript
        interface FunctionC {
