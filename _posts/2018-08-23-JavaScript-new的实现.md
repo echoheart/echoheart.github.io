@@ -7,7 +7,7 @@ author:     limantang
 header-img: img/post-bg-ios9-web.jpg
 catalog: true
 tags:
-    - javaScript
+    - JavaScript
 ---
 
 # new的简单实现
