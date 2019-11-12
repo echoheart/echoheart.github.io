@@ -7,8 +7,7 @@ author:     limantang
 header-img: img/post-bg-ios9-web.jpg
 catalog: true
 tags:
-    - javaScript读书笔记
-    - ES5
+    - JavaScript
 ---
 # 对象
 ``对象就是一组无序的数据集合,键值对的数据集合,本次将对象和数组放在一起就是因为对象和数组有很多相同的地方,也可以将数组理解为一种特殊的对象

@@ -7,9 +7,7 @@ author:     limantang
 header-img: img/post-bg-ios9-web.jpg
 catalog: true
 tags:
-    - javaScript读书笔记
-    - ES5
-    - Array
+    - JavaScript
 ---
 # 构造函数
 ``Array是js原生的对象,同时也是一个构造函数,可以用来生成新的数组

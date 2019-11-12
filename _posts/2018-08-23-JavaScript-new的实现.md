@@ -7,7 +7,6 @@ author:     limantang
 header-img: img/post-bg-ios9-web.jpg
 catalog: true
 tags:
-    - JavaScript原理
     - javaScript
 ---
 

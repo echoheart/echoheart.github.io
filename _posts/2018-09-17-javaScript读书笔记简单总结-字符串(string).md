@@ -7,8 +7,7 @@ author:     limantang
 header-img: img/post-bg-ios9-web.jpg
 catalog: true
 tags:
-    - javaScript读书笔记
-    - ES5
+    - JavaScript
 ---
 # 字符串
 ``字符串就是一个或者多个字符串排列在一起,放在单引号或者双引号当中

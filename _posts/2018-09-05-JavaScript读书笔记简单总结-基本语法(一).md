@@ -7,8 +7,7 @@ author:     limantang
 header-img: img/post-bg-ios9-web.jpg
 catalog: true
 tags:
-    - javaScript读书笔记
-    - ES5
+    - JavaScript
 ---
 # 语句
 
