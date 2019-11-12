@@ -11,7 +11,7 @@ tags:
 ---
 # async await学习笔记
 
-    1. await必须放在async函数里面(语法规定)
+1. await必须放在async函数里面(语法规定)
 
    ```typescript
        function fn() {
@@ -39,7 +39,7 @@ tags:
        test();
    ```
 
-    2. 失败的处理 使用try catch捕获错误
+2. 失败的处理 使用try catch捕获错误
 
    ```typescript
        function fn() {
@@ -65,7 +65,7 @@ tags:
        test();
    ```
 
-    3. 同时两个异步可以用await处理吗
+3. 同时两个异步可以用await处理吗
 
 ```typescript
     function fn() {
@@ -116,16 +116,16 @@ tags:
     test();
 ```
 
-    4. 为什么需要await
+4. 为什么需要await
 
-       它会使你的语法和结构更像是标准的同步函数...
-    
-       await必须返回一个Promise对象
-    
-       个人觉得其实await还是蛮丑的
-    
-       不如then方法, Promise写法还是蛮好看的
-    
-       但是对于大脑负担,await还是减少了大脑的思考🤔
+   它会使你的语法和结构更像是标准的同步函数...
 
-    5. async函数的结果也是一个Promise对象
+   await必须返回一个Promise对象
+
+   个人觉得其实await还是蛮丑的
+
+   不如then方法, Promise写法还是蛮好看的
+
+   但是对于大脑负担,await还是减少了大脑的思考🤔
+
+5. async函数的结果也是一个Promise对象
