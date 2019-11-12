@@ -16,13 +16,13 @@ tags:
 1. ts支持js的7种数据类型
 
    ```tsx
-   const a: number = 1;
-   const b: string = 'str';
-   const c: boolean = true;
-   const d: undefined = undefined;
-   const e: null = null;
-   const obj: object = {};
-   const g: symbol = Symbol('key');
+       const a: number = 1;
+       const b: string = 'str';
+       const c: boolean = true;
+       const d: undefined = undefined;
+       const e: null = null;
+       const obj: object = {};
+       const g: symbol = Symbol('key');
    ```
 
    其中所有类型的声明都是小写字母开头
@@ -34,22 +34,22 @@ tags:
 2. ts额外支持any, 枚举类型, void类型 Tuple元组类型 never类型额外五种
 
    ```tsx
-   const a: any = 1;
-   const a: any = 'any';
+       const a: any = 1;
+       const a: any = 'any';
 
-   function a(): void {
-     // code
-   }
+       function a(): void {
+         // code
+       }
 
-   enum Gender {
-     man,
-     woman
-   }
-   const g: Gender = Gender.man;
+       enum Gender {
+         man,
+         woman
+       }
+       const g: Gender = Gender.man;
 
-   const x: [string, number] = ['str', 123];
-   x = ['str1', 1234]; //	ok
-   x = [1234, 'str1']	//	error
+       const x: [string, number] = ['str', 123];
+       x = ['str1', 1234]; //	ok
+       x = [1234, 'str1']	//	error
    ```
 
    任何类型都可以作为any类型的子类型
@@ -62,11 +62,11 @@ tags:
 3. 类型断言
 
    ```tsx
-   const a: number = 1;
-   console.log((a as any).toString());
+       const a: number = 1;
+       console.log((a as any).toString());
 
-   const b: any = 2;
-   console.log((<number>b).toString());
+       const b: any = 2;
+       console.log((<number>b).toString());
    ```
 
    类型断言是不允许两个具体类型之间的转换
