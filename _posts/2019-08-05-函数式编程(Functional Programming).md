@@ -60,48 +60,48 @@ tags:
        )	//	v3
    ```
 
-以上求值的过程就是递归求值的过程
-
-想要求出最终的结果要经过两步
-
-- 求出操作符两边的值
-- 将第一步求出的值作用于操作符
-
-首先求出v1值为3, 其操作符两边的值为1 2 操作符为+
-
-v2值为6, 其操作符两边的值为2  3操作符为*
-
-递归上面的过程v3的求解过程为知道了v1 v2的值分别为 3 6,操作符为+. 所以最终值为9
+    以上求值的过程就是递归求值的过程
+    
+    想要求出最终的结果要经过两步
+    
+    - 求出操作符两边的值
+    - 将第一步求出的值作用于操作符
+    
+    首先求出v1值为3, 其操作符两边的值为1 2 操作符为+
+    
+    v2值为6, 其操作符两边的值为2  3操作符为*
+    
+    递归上面的过程v3的求解过程为知道了v1 v2的值分别为 3 6,操作符为+. 所以最终值为9
 
 3. 带入求值
 
-看下面代码
-
-   ```typescript
-       (define (squ x) (* x x))
-       (define (squsum a b)
-                    (+ (* a a)
-                 (* b b)))
-       (define (f z)
-                    (squsum z
-                                    (+ z 1)))
-   ```
-
-上面f函数改写为数学表达式为
-
-f(z) = z^2 + (z + 1)^2
-
-假设z = 5 求(f 5)
-
-如果知道数学表达式那么只需要按照数学表达式计算出值即可
-
-但是如果不知道数学表达式, 就需要将z = 5一步一步的带入得出结果
-
-这个过程就是带入求值的过程
-
-带入求值最重要的一点是输入会确定输出
-
-但是并不是所有的(f 5)都会得到确定的输出, 必须满足一定条件才可以(下面会说要满足的条件)
+    看下面代码
+    
+       ```typescript
+           (define (squ x) (* x x))
+           (define (squsum a b)
+                        (+ (* a a)
+                     (* b b)))
+           (define (f z)
+                        (squsum z
+                                        (+ z 1)))
+       ```
+    
+    上面f函数改写为数学表达式为
+    
+    f(z) = z^2 + (z + 1)^2
+    
+    假设z = 5 求(f 5)
+    
+    如果知道数学表达式那么只需要按照数学表达式计算出值即可
+    
+    但是如果不知道数学表达式, 就需要将z = 5一步一步的带入得出结果
+    
+    这个过程就是带入求值的过程
+    
+    带入求值最重要的一点是输入会确定输出
+    
+    但是并不是所有的(f 5)都会得到确定的输出, 必须满足一定条件才可以(下面会说要满足的条件)
 
 4. 递归
 
@@ -141,9 +141,9 @@ f(z) = z^2 + (z + 1)^2
        )
    ```
 
-迭代: 从一个状态到下一个状态(正向计算, 状态变量的数目固定)—>尾递归
-
-在代码层面上看着都是自身调用自身但是, 自身调用自身不一定是递归
+    迭代: 从一个状态到下一个状态(正向计算, 状态变量的数目固定)—>尾递归
+    
+    在代码层面上看着都是自身调用自身但是, 自身调用自身不一定是递归
 
 6. 高阶函数
 
@@ -277,7 +277,6 @@ f(z) = z^2 + (z + 1)^2
 
 11. 函数式优缺点及特点
 
-
 - 函数编程都是垃圾(大量中间无用变量GC)
 
 - 不是有等于号就是赋值, 第一次的等于号是定义, 第二次是赋值
@@ -329,96 +328,94 @@ f(z) = z^2 + (z + 1)^2
 
 12. map&forEach&filter&reduce区别和联系
 
-forEach模拟实现
+    forEach模拟实现
 
-```typescript
-    Array.prototype._forEach = function (fn) {
-      for(let i = 0;i < this.length; i++) {
-        if (i in this) {	//	判断不存在的项
-          fn.call(undefined, this[i], i, this);
-        }
-      }
-    }
-```
-
-for和forEach区别
-
-forEach用到了函数, 每次循环都是生成新的作用域
-
-forEach无法break
-
-
-
-map模拟实现
-
-```typescript
-    Array.prototype._map = function (fn) {
-      const result = [];
-      for(let i = 0;i < this.length; i++) {
-        if (i in this) {
-          result[i] = fn.call(undefined, this[i], i, this);
-        }
-      }
-      return result;
-    }
-```
-filter模拟实现
-
-```typescript
-    Array.prototype._filter = function (fn) {
-      const result = [];
-      let temp = false;
-      for(let i = 0;i < this.length; i++) {
-        if (i in this) {
-          if (temp = fn.call(undefined, this[i], i, this)) {
-            result.push(temp);
+    ```typescript
+        Array.prototype._forEach = function (fn) {
+          for(let i = 0;i < this.length; i++) {
+            if (i in this) {	//	判断不存在的项
+              fn.call(undefined, this[i], i, this);
+            }
           }
         }
-      }
-      return result;
-    }
-```
-
-reduce模拟实现
-
-```typescript
-    Array.prototype._reduce = function (fn, init) {
-      let result = init;
-      for(let i = 0;i < this.length; i++) {
-        if (i in this) {
-          result = fn.call(undefined, result, this[i], i, this);
+    ```
+    
+    for和forEach区别
+    
+    forEach用到了函数, 每次循环都是生成新的作用域
+    
+    forEach无法break
+   
+    map模拟实现
+    
+    ```typescript
+        Array.prototype._map = function (fn) {
+          const result = [];
+          for(let i = 0;i < this.length; i++) {
+            if (i in this) {
+              result[i] = fn.call(undefined, this[i], i, this);
+            }
+          }
+          return result;
         }
-      }
-      return result;
-    }
-```
-
-reduce表示map
-
-```typescript
-    arr1 = array.map((v) =>v + 1);
+    ```
+    filter模拟实现
     
-    arr2 = array.reduce((result, item) => {
-      result.puhs(item + 1);
-      return result;
-    }, []);
-```
-
-reduce表示filter
-
-```typescript
-    arr1 = array.filter((v) => v % 2 === 0);
+    ```typescript
+        Array.prototype._filter = function (fn) {
+          const result = [];
+          let temp = false;
+          for(let i = 0;i < this.length; i++) {
+            if (i in this) {
+              if (temp = fn.call(undefined, this[i], i, this)) {
+                result.push(temp);
+              }
+            }
+          }
+          return result;
+        }
+    ```
     
-    arr2 = array.reduce((result, item) => {
-      if(item % 2 === 0) {
-        result.push(item);
-      }
-      return result;
-    }, [])
-```
-
-数组操作一定要学会reduce
-
-redux和reduce之间的联系
+    reduce模拟实现
+    
+    ```typescript
+        Array.prototype._reduce = function (fn, init) {
+          let result = init;
+          for(let i = 0;i < this.length; i++) {
+            if (i in this) {
+              result = fn.call(undefined, result, this[i], i, this);
+            }
+          }
+          return result;
+        }
+    ```
+    
+    reduce表示map
+    
+    ```typescript
+        arr1 = array.map((v) =>v + 1);
+        
+        arr2 = array.reduce((result, item) => {
+          result.puhs(item + 1);
+          return result;
+        }, []);
+    ```
+    
+    reduce表示filter
+    
+    ```typescript
+        arr1 = array.filter((v) => v % 2 === 0);
+        
+        arr2 = array.reduce((result, item) => {
+          if(item % 2 === 0) {
+            result.push(item);
+          }
+          return result;
+        }, [])
+    ```
+    
+    数组操作一定要学会reduce
+    
+    redux和reduce之间的联系
 
 
