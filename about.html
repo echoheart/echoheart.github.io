@@ -35,6 +35,7 @@ header-img: "img/home-bg-art.jpg"
 
     // handle render
     function _render(){
+        if (!($zh && $en && $select)) return;
         var _hash = window.location.hash;
         // en
         if(_hash == "#en"){
