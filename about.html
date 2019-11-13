@@ -44,7 +44,9 @@ header-img: "img/home-bg-art.jpg"
         // zh by default
         }else{
             // not trigger onChange, otherwise cause a loop call.
-            $select.selectedIndex = 0;
+            if ($select) {
+                $select.selectedIndex = 0;
+            }
             $zh.style.display = "block";
             $en.style.display = "none";
         }
