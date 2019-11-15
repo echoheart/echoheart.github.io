@@ -31,10 +31,11 @@ js中的new大家一定也会经常使用,其实和java的大体意思是很相�
         this.say = function () {
             console.log('人类共有的say方法')
         }
-     const personOne = new Person('张三', 18);
-     const personTwo = new Person('李四', 28);
-     console.log(personOne);
-     console.log(personTwo);
+         const personOne = new Person('张三', 18);
+         const personTwo = new Person('李四', 28);
+         console.log(personOne);
+         console.log(personTwo);
+    }
      // 大家可以复制这段代码打开chrome的控制台运行一下,看看结果
 ```
 其实这段代码非常简单,首先声明了一个Person的构造函数,
