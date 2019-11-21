@@ -105,18 +105,19 @@ console.log('启动监听');
 
 
 ## Readable Stream & Writable Stream
-	- Readable Stream
-		- 事件: `data` `end``error``close` `readable`
-		重点看一下`data`和`end`两个事件,监听`data`事件可以获取到每		次传输的数据, 监听`end`事件可以得知结束通知
-		监听`readable`可以得知当前是否可读
-		- 方法: `pipe``wrap``destroy``read``resume``pause`…
-		这里主要了解一下`pipe`管道, `pause`暂停`resume`恢复
+- Readable Stream
+    - 事件: `data` `end``error``close` `readable`
+    重点看一下`data`和`end`两个事件,监听`data`事件可以获取到每		次传输的数据, 监听`end`事件可以得知结束通知
+    监听`readable`可以得知当前是否可读
+    - 方法: `pipe``wrap``destroy``read``resume``pause`…
+    这里主要了解一下`pipe`管道, `pause`暂停`resume`恢复
 
-	- Writable Stream
+- Writable Stream
 
-		- 事件: `drain``finish``error``close`
-		主要了解一下`drain`这个事件, 这个单词的中文含义是**流干**
-		什么意思呢, 看一段代码
+    - 事件: `drain``finish``error``close`
+    主要了解一下`drain`这个事件, 这个单词的中文含义是**流干**
+    什么意思呢, 看一段代码
+    
 ```js
 const fs = require('fs');
 const writeStream = fs.createWriteStream('./big_file_for_write.txt');
