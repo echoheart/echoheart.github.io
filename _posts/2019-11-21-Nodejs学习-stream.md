@@ -11,7 +11,6 @@ tags:
 ---
 
 # Nodejs学习-stream模块
-#nodejs#
 
 # stream-流
 stream可以认为是水流, 但是默认是没有水的
