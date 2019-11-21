@@ -132,7 +132,7 @@ function write (chunk) {
 		} else {
 			flag = writeStream.write(chunk);
 			if (flag === false) {
-				console.log('写入流已经堵塞了,也就是我上游的水太多了, 写入流处理不过来了')
+				console.log('写入流已经堵塞了,也就是我上游的水态多了, 写入流处理不过来了')
 			}
 		}
 
@@ -148,7 +148,7 @@ write('hello world hello world hello world hello');
 ```
 
 ## Readable&Writable特点
-**静止太paused**和**流动态flowing**
+**静止态paused**和**流动态flowing**
 
 1. Readable
 
