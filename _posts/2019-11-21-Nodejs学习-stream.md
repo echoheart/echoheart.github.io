@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      Nodejs学习-http模块
-subtitle:   Nodejs学习-http模块
+title:      Nodejs学习-stream
+subtitle:   Nodejs学习-stream
 date:       2019-11-21
 author:     limantang
 header-img: img/post-bg-ios9-web.jpg
