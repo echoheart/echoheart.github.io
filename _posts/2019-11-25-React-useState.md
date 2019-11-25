@@ -18,6 +18,7 @@ tags:
 useState是react16Hooks的一个新的API, 作用就是react老版本的state的替身, 但是原理有了一些变化
 
 看一段代码
+[react-theory/App.js at master · echoheart/react-theory · GitHub](https://github.com/echoheart/react-theory/blob/master/src/App.js)
 
 ```ts
 import React from "react";
@@ -63,6 +64,8 @@ ReactDOM.render(<App />, rootElement);
 - useState肯定会从state读取n的最新值
 
 下面代码验证我们上面得到的结论
+[react-theory/App2.js at master · echoheart/react-theory · GitHub](https://github.com/echoheart/react-theory/blob/master/src/App2.js)
+
 ```js
 import React from "react";
 import ReactDOM from 'react-dom';
@@ -102,6 +105,7 @@ function App() {
 ## 单个组件的多个useState
 改进思路把_state做成一个对象, 例如`_state = {n: 0, m: 0}`但是仅仅通过useState这个方法我们无法确定出唯一确定的key
 可以把_state做成数组, 看下面的代码
+[react-theory/App3.js at master · echoheart/react-theory · GitHub](https://github.com/echoheart/react-theory/blob/master/src/App3.js)
 
 ```js
 import React from "react";
@@ -175,6 +179,8 @@ function App() {
 在正真的React实现中,其中React节点就是FiberNode, `_state`对应的是memorizeState, index是使用链表实现的
 
 ## n的分身
+
+[react-theory/App4.js at master · echoheart/react-theory · GitHub](https://github.com/echoheart/react-theory/blob/master/src/App4.js)
 ```js
 import React from "react";
 import ReactDOM from 'react-dom';
