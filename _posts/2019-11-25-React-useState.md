@@ -20,10 +20,10 @@ useState是react16Hooks的一个新的API, 作用就是react老版本的state的
 看一段代码
 [react-theory/App.js at master · echoheart/react-theory · GitHub](https://github.com/echoheart/react-theory/blob/master/src/App.js)
 
-```ts
+```jsx harmony
 import React from "react";
-import ReactDOM from “react-dom”;
-const rootElement = document.getElementById(“root”);
+import ReactDOM from 'react-dom';
+const rootElement = document.getElementById('root');
 
 function App() {
   const [n, setN] = React.useState(0);
@@ -66,7 +66,7 @@ ReactDOM.render(<App />, rootElement);
 下面代码验证我们上面得到的结论
 [react-theory/App2.js at master · echoheart/react-theory · GitHub](https://github.com/echoheart/react-theory/blob/master/src/App2.js)
 
-```js
+```jsx harmony
 import React from "react";
 import ReactDOM from 'react-dom';
 const rootElement = document.getElementById('root');
@@ -107,7 +107,7 @@ function App() {
 可以把_state做成数组, 看下面的代码
 [react-theory/App3.js at master · echoheart/react-theory · GitHub](https://github.com/echoheart/react-theory/blob/master/src/App3.js)
 
-```js
+```jsx harmony
 import React from "react";
 import ReactDOM from 'react-dom';
 const rootElement = document.getElementById('root');
@@ -181,7 +181,7 @@ function App() {
 ## n的分身
 
 [react-theory/App4.js at master · echoheart/react-theory · GitHub](https://github.com/echoheart/react-theory/blob/master/src/App4.js)
-```js
+```jsx harmony
 import React from "react";
 import ReactDOM from 'react-dom';
 const rootElement = document.getElementById('root');
