@@ -52,7 +52,7 @@ tags:
 ## componentWillUnmount 组件即将被卸载
 组价被卸载之前调用, 在这里删除一些注册的函数, 以及设置的计时器
 
-## 声明周期图
+## 生命周期图
 
 ![](https://www.echoheart.cn/img/react-life-cycle.jpg)
 
