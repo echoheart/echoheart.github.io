@@ -54,7 +54,7 @@ tags:
 
 ## 声明周期图
 
-![](https://www.echoheart.cn/img/react-life-cycle.png)
+![](https://www.echoheart.cn/img/react-life-cycle.jpg)
 
 ## 代码示例
 ```jsx
@@ -155,7 +155,7 @@ export default LifeCycle;
 
 
 ## react16生命周期图
-![](https://www.echoheart.cn/img/react16-life-cycle.png)
+![](https://www.echoheart.cn/img/react16-life-cycle.jpg)
 
 
 
