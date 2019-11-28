@@ -74,8 +74,8 @@ tags:
 
 ## 代码示例
 ```jsx
-import React from "react”;
 
+import React from "react”;
 class LifeCycle extends React.Component {
   constructor(props) {
     super(props);
@@ -138,7 +138,6 @@ class LifeCycle extends React.Component {
   }
   
 }
-
 export default LifeCycle;
 ```
 
