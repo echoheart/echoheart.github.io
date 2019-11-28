@@ -22,8 +22,8 @@ tags:
 看如下代码
 
 ```jsx
-import React, {useState} from “react”;
-import ReactDOM from “react-dom”;
+import React, {useState} from "react";
+import ReactDOM from "react-dom";
 
 function App() {
   const [user,setUser] = useState({name:'Nick', age: 18})
@@ -81,8 +81,8 @@ export default App;
 如果使用下面的写法是不会改变的
 
 ```jsx
-import React, {useState} from “react”;
-import ReactDOM from “react-dom”;
+import React, {useState} from "react";
+import ReactDOM from "react-dom";
 
 function App() {
   const obj = {
@@ -108,8 +108,8 @@ export default App;
 要使用这种写法
 
 ```jsx
-import React, {useState} from “react”;
-import ReactDOM from “react-dom”;
+import React, {useState} from "react";
+import ReactDOM from "react-dom";
 
 function App() {
   const obj = {
@@ -142,8 +142,8 @@ useState接受的函数返回一个需要初始化的变量, 这样做的好处�
 因为JS分析代码遇到函数的时候是不会直接进入到函数内部的, 只有执行的时候才进去
 
 ```jsx
-import React, {useState} from “react”;
-import ReactDOM from “react-dom”;
+import React, {useState} from "react";
+import ReactDOM from "react-dom";
 
 function App() {
 
@@ -174,8 +174,8 @@ export default App;
 - setState可以接受一个函数
 
 ```jsx
-import React, {useState} from “react”;
-import ReactDOM from “react-dom”;
+import React, {useState} from "react";
+import ReactDOM from "react-dom";
 
 function App() {
   const [n, setN] = useState(0)
@@ -216,8 +216,8 @@ useReducer也是在践行redux的思想, 大体的用法也差不多, 具体可�
 - 调用写操作(dispatch)
 
 ```jsx
-import React, { useState, useReducer } from “react”;
-import ReactDOM from “react-dom”;
+import React, { useState, useReducer } from "react";
+import ReactDOM from "react-dom";
 import { throwError } from "rxjs";
 
 const initialState = {
@@ -244,7 +244,7 @@ function App() {
   const { n } = state;
   console.log(state.n);
   const onClick = () => {
-    dispatch({ type: “add”, number: 1 });
+    dispatch({ type: "add", number: 1 });
   };
   const onClick2 = () => {
     dispatch({ type: "add", number: 2 });
@@ -268,8 +268,8 @@ export default App;
 看一个使用useReducer实现的简易表单例子
 
 ```jsx
-import React, { useReducer } from “react”;
-import ReactDOM from “react-dom”;
+import React, { useReducer } from "react";
+import ReactDOM from "react-dom";
 
 const initFormData = {
   name: "",
@@ -359,7 +359,7 @@ useContext使用方式
 - 在作用域的范围内使用`useContext(C)`来使用上下文
 
 ```jsx
-import React, { createContext, useState, useContext } from “react”;
+import React, { createContext, useState, useContext } from "react";
 import ReactDOM from "react-dom";
 const C = createContext(null);
 
@@ -416,7 +416,7 @@ useEffect接受两个参数, 第一个函数, 第二个是数组
 看个例子
 
 ```jsx
-import React, { useState, useEffect } from “react”;
+import React, { useState, useEffect } from "react";
 const App = () => {
   const [n, setN] = useState(0);
 
@@ -455,7 +455,7 @@ export default App;
 如果要在useEffect这hook里面执行一些操作dom, 改变dom中的内容的操作, 可能就会出现屏幕闪烁的现象, 因为useEffect的hook被调用时, 页面已经渲染出dom了
 
 ```jsx
-import React, { useState, useEffect } from “react”;
+import React, { useState, useEffect } from "react";
 
 const App = () => {
   const [value, setValue] = useState(0);
@@ -506,7 +506,7 @@ useLayoutEffect可以理解为在浏览器将React产生的真实dom渲染到页
 看下面两个验证的例子
 
 ```jsx
-import React, {useState, useRef, useLayoutEffect, useEffect} from “react”;
+import React, {useState, useRef, useLayoutEffect, useEffect} from "react";
 
 function App() {
   const [n, setN] = useState(0)
@@ -534,7 +534,7 @@ export default App;
 ```
 
 ```jsx
-import React, {useState, useLayoutEffect, useEffect} from “react”;
+import React, {useState, useLayoutEffect, useEffect} from "react";
 
 function App() {
   const [n, setN] = useState(0)
@@ -668,7 +668,7 @@ export default App;
 
 ```jsx
 
-import React, {useMemo} from “react”;
+import React, {useMemo} from "react";
 function App() {
   const [n, setN] = React.useState({
     number: 0
@@ -703,7 +703,7 @@ function App() {
 }
 
 function Child(props) {
-  console.log(“child 执行了”);
+  console.log("child 执行了");
   console.log('假设这里有大量代码')
   console.log(props.data);
   console.log(props.onClick);
@@ -729,7 +729,7 @@ useMemo类似Vue2的computed
 
 ```jsx
 
-import React, {useCallback} from “react”;
+import React, {useCallback} from "react";
 function App() {
   const [n, setN] = React.useState({
     number: 0
@@ -781,7 +781,7 @@ export default App;
 ## useRef
 `useRef`提供一个在整个组件的生命周期都不会改变的对象
 ```jsx
-import React, {useRef} from “react”;
+import React, {useRef} from "react";
 function App() {
   const count = useRef(0);
   console.log('count', count);
@@ -821,7 +821,7 @@ useRef不会触发页面重新渲染
 
 ```jsx
 
-import React, {useRef, useEffect} from “react”;
+import React, {useRef, useEffect} from "react";
 function App() {
   const ref = useRef(null);
   console.log('ref.current', ref.current);
@@ -843,7 +843,7 @@ export default App;
 再看一个例子
 
 ```jsx
-import React, {useRef, useEffect} from “react”;
+import React, {useRef, useEffect} from "react";
 function App() {
   const buttonRef = useRef(null);
   console.log(‘buttonRef-App’, buttonRef.current);
@@ -881,7 +881,7 @@ export default App;
 ## useImperativeHandle
 看一段代码
 ```jsx
-import React, { useRef, useEffect } from “react”;
+import React, { useRef, useEffect } from "react";
 function App() {
   const buttonRef = useRef(null);
   useEffect(() => {
@@ -891,7 +891,7 @@ function App() {
     <div className="App">
       <Button2 ref={buttonRef}>按钮</Button2>
       <button
-        className=“close”
+        className="close"
         onClick={() => {
           console.log(buttonRef);
           buttonRef.current.remove();
@@ -974,7 +974,7 @@ export default App;
 
 看代码
 ```jsx
-import React, { useRef, createRef, useState } from “react”;
+import React, { useRef, createRef, useState } from "react";
 
 function App() {
   const [renderIndex, setRenderIndex] = useState(1);
@@ -1015,13 +1015,13 @@ export default App;
 看一个例子
 
 ```jsx
-import React, { useRef, useState, useEffect } from “react”;
-import useList from “./customer-hook”;
+import React, { useRef, useState, useEffect } from "react";
+import useList from "./customer-hook";
 
 function App() {
   const { list, deleteIndex } = useList();
   return (
-    <div className=“App”>
+    <div className="App">
       <h1>List</h1>
       {list ? (
         <ol>
