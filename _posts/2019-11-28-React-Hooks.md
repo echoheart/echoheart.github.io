@@ -47,16 +47,21 @@ export default App;
 可以使用如下代码
 
 ```jsx
-import React, {useState} from “react”;
-import ReactDOM from “react-dom”;
+import React, {useState} from "react";
+import ReactDOM from "react-dom";
 
 function App() {
-  const [user,setUser] = useState({name:'Nick', age: 18})
+  const obj = {
+    name:'Nick', 
+    age: 18
+  }
+  const [user,setUser] = useState(obj)
   const onClick = ()=>{
-    setUser(
-			...user,
-			name: ‘Jack'
-		)
+
+    setUser({
+      ...user,
+      name: 'Jack'
+    })
   }
   return (
     <div className="App">
@@ -66,7 +71,10 @@ function App() {
     </div>
   );
 }
+
+
 export default App;
+
 ```
 
 - 地址要变(使用新对象)
@@ -562,7 +570,7 @@ useLayoutEffect这个hook里面最好执行一些关于dom操作或者影响布�
 首先看一下`React.memo`的作用
 
 ```jsx
-import React from "react”;
+import React from "react";
 function App() {
   const [n, setN] = React.useState({
     number: 0
@@ -609,7 +617,7 @@ export default App;
 
 ```jsx
 
-import React from "react”;
+import React from "react";
 function App() {
   const [n, setN] = React.useState({
     number: 0
@@ -626,9 +634,9 @@ function App() {
   };
 
   const testOnClick = () => {}
-  console.log(‘App执行了’);
+  console.log('App执行了');
   return (
-    <div className=“App”>
+    <div className="App">
       <div>
         <p>n.number: {n.number}</p>
         <button onClick={onClick}>update n</button>
@@ -650,6 +658,7 @@ function Child(props) {
 const MemoChild = React.memo(Child);
 
 export default App;
+
 ```
 上述代码会发现`React.memo`似乎是没有生效, `MemoChild`组件还是重新渲染了
 这是因为每次App组件都会重新执行, 所有每次都会产生新的`testOnClick`函数,  所以`MemoChild`组件认为`props`变化了, 所以重新渲染了

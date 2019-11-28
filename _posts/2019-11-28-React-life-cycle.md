@@ -74,20 +74,26 @@ tags:
 
 ## 代码示例
 ```jsx
+import React from "react";
 
-import React from "react”;
 class LifeCycle extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { string: “自身状态” };
+    this.state = { string: "自身状态" };
+  }
+
+  static getDerivedStateFromProps(nextProps, prevState) {
+    console.log('getDerivedStateFromProps');
+    console.log('nextProps',nextProps)
+    console.log('prevState',prevState)
   }
 
   componentWillMount() {
-    console.log(“componentWillMount”);
+    console.log("componentWillMount");
   }
 
   render() {
-    console.log(“render");
+    console.log("render");
     return (
       <div>
         <span><h2>{this.props.obj.number}</h2></span>
@@ -95,7 +101,7 @@ class LifeCycle extends React.Component {
         <span><h2>{this.state.string}</h2></span>
         <button onClick={() => {
           this.setState({
-            string: ‘改变了自身状态'
+            string: '改变了自身状态'
           })
         }}>改变state</button>
       </div>
@@ -103,34 +109,49 @@ class LifeCycle extends React.Component {
   }
 
   componentDidMount() {
-    console.log(“componentDidMount”);
+    console.log("componentDidMount");
   }
 
   componentWillReceiveProps(nextProps) {
-    console.log(“componentWillReceiveProps");
-    console.log(‘nextProps’, nextProps)
-    console.log(‘thisProps’,this.props)
+    console.log("componentWillReceiveProps");
+    console.log('nextProps', nextProps)
+    console.log('thisProps',this.props)
   }
 
   shouldComponentUpdate(nextProps, nextState) {
-    console.log(“shouldComponentUpdate”);
-    console.log('nextProps’,nextProps)
-    console.log(‘thisProps’,this.props)
-    console.log(‘nextState',nextState)
-    console.log(‘thisState’,this.state)
+    console.log("shouldComponentUpdate");
+    console.log('nextProps',nextProps)
+    console.log('thisProps',this.props)
+    console.log('nextState',nextState)
+    console.log('thisState',this.state)
     return true;
   }
 
   componentWillUpdate(nextProps, nextState) {
-    console.log(“componentWillUpdate”);
-    console.log(‘nextProps’,nextProps)
-    console.log('thisProps’,this.props)
-    console.log(‘nextState’,nextState)
-    console.log(‘thisState’,this.state)
+    console.log("componentWillUpdate");
+    console.log('nextProps',nextProps)
+    console.log('thisProps',this.props)
+    console.log('nextState',nextState)
+    console.log('thisState',this.state)
   }
 
-  componentDidUpdate() {
+  getSnapshotBeforeUpdate(prevProps, prevState) {
+    console.log('getSnapshotBeforeUpdate');
+    console.log('prevProps',prevProps)
+    console.log('thisProps',this.props)
+    console.log('prevState',prevState)
+    console.log('thisState',this.state)
+    return 999;
+  }
+  
+
+  componentDidUpdate(prevProps, prevState, snapshot) {
     console.log("componentDidUpdate");
+    console.log('prevProps',prevProps)
+    console.log('thisProps',this.props)
+    console.log('prevState',prevState)
+    console.log('thisState',this.state)
+    console.log('snapshot',snapshot)
   }
 
   componentWillUnmount() {
@@ -138,7 +159,9 @@ class LifeCycle extends React.Component {
   }
   
 }
+
 export default LifeCycle;
+
 ```
 
 **代码示例**
