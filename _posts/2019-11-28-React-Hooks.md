@@ -18,7 +18,9 @@ tags:
 
 **注意事项**
 - 不可以局部更新
+
 看如下代码
+
 ```jsx
 import React, {useState} from “react”;
 import ReactDOM from “react-dom”;
@@ -40,8 +42,10 @@ function App() {
 }
 export default App;
 ```
+
 本意是想只更新`name`字段, 但是导致`age`丢失
 可以使用如下代码
+
 ```jsx
 import React, {useState} from “react”;
 import ReactDOM from “react-dom”;
@@ -64,8 +68,10 @@ function App() {
 }
 export default App;
 ```
+
 - 地址要变(使用新对象)
 如果使用下面的写法是不会改变的
+
 ```jsx
 import React, {useState} from “react”;
 import ReactDOM from “react-dom”;
@@ -90,7 +96,9 @@ function App() {
 }
 export default App;
 ```
+
 要使用这种写法
+
 ```jsx
 import React, {useState} from “react”;
 import ReactDOM from “react-dom”;
@@ -120,9 +128,11 @@ export default App;
 ```
 
 - useState接受函数
+
 useState接受的函数返回一个需要初始化的变量, 这样做的好处就是避免了每次重新执行组件函数的时候, 去新生成那个初始化的变量,
 
 因为JS分析代码遇到函数的时候是不会直接进入到函数内部的, 只有执行的时候才进去
+
 ```jsx
 import React, {useState} from “react”;
 import ReactDOM from “react-dom”;
@@ -150,11 +160,11 @@ function App() {
     </div>
   );
 }
-
-
 export default App;
 ```
+
 - setState可以接受一个函数
+
 ```jsx
 import React, {useState} from “react”;
 import ReactDOM from “react-dom”;
@@ -179,7 +189,6 @@ function App() {
     </div>
   );
 }
-
 export default App;
 ```
 如果想连续执行setState操作生效的话, 只有通过这种返回一个变量的函数作为setState的参数时才会生效
@@ -191,11 +200,13 @@ export default App;
 个人觉得我会更倾向于setState接受函数作为参数这种方法, 原因是更可控, 更符合直觉
 
 ## useReducer
+
 useReducer也是在践行redux的思想, 大体的用法也差不多, 具体可以分一下几步:
 - 创建initialState
 - 创建集合所有操作的额reducer函数
 - 传给useReducer, 得到读写API
 - 调用写操作(dispatch)
+
 ```jsx
 import React, { useState, useReducer } from “react”;
 import ReactDOM from “react-dom”;
@@ -247,6 +258,7 @@ export default App;
 ```
 
 看一个使用useReducer实现的简易表单例子
+
 ```jsx
 import React, { useReducer } from “react”;
 import ReactDOM from “react-dom”;
@@ -337,11 +349,10 @@ useContext使用方式
 - 使用`C = createContext(init)`创建上下文
 - 使用`<C.provider>`圈定上下文的作用域
 - 在作用域的范围内使用`useContext(C)`来使用上下文
+
 ```jsx
 import React, { createContext, useState, useContext } from “react”;
 import ReactDOM from "react-dom";
-
-
 const C = createContext(null);
 
 function App() {
@@ -384,6 +395,7 @@ export default App;
 然后,`App`逐级向下通知更新n
 
 ## useEffect
+
 useEffect的作用是代替类组件中的三个生命周期钩子函数`componentDidMount`. `componentDidUpdate`, `componentWillUnmount`
 用来执行一些有副作用的操作
 useEffect接受两个参数, 第一个函数, 第二个是数组
@@ -394,6 +406,7 @@ useEffect接受两个参数, 第一个函数, 第二个是数组
 这个钩子的第一个参数函数可以返回一直函数, 用于组件卸载之前调用, 相当于`componentWillUnmount`
 
 看个例子
+
 ```jsx
 import React, { useState, useEffect } from “react”;
 const App = () => {
@@ -428,6 +441,7 @@ export default App;
 ```
 
 ## useLayoutEffect
+
 这个hook和useEffect存在一些差别
 上面说过useEffect相当于替代那三个生命周期钩子函数, 也就说useEffect这个hook是在render渲染页面之后执行的
 如果要在useEffect这hook里面执行一些操作dom, 改变dom中的内容的操作, 可能就会出现屏幕闪烁的现象, 因为useEffect的hook被调用时, 页面已经渲染出dom了
@@ -473,6 +487,7 @@ const App = () => {
 };
 export default App;
 ```
+
 这段代码不好复现这个情况, 感兴趣的可以多些一些复杂的dom结构试试🥶
 
 为了解决这个问题, 就出现useLayoutEffect
@@ -481,6 +496,7 @@ useLayoutEffect可以理解为在浏览器将React产生的真实dom渲染到页
 
 所以useLayoutEffect的执行时机一定比useEffect早
 看下面两个验证的例子
+
 ```jsx
 import React, {useState, useRef, useLayoutEffect, useEffect} from “react”;
 
@@ -541,8 +557,10 @@ useLayoutEffect这个hook里面最好执行一些关于dom操作或者影响布�
 为了用户体验应该优先使用useEffect, 毕竟useLayoutEffect是在真实dom被渲染到页面之前执行, 还是会有一些性能损耗
 
 ## useMemo
+
 了解useMemo之前
 首先看一下`React.memo`的作用
+
 ```jsx
 import React from "react”;
 function App() {
@@ -588,6 +606,7 @@ export default App;
 仅在子组件依赖的props变化时才重新渲染
 
 下面演示一种使用`React.memo`产生的bug情况
+
 ```jsx
 
 import React from "react”;
@@ -637,6 +656,7 @@ export default App;
 
 由于这种上述这种情况仅仅使用`React.memo`没法满足要求, 这就引出了`useMemo`
 使用`useMemo`改进上面情况
+
 ```jsx
 
 import React, {useMemo} from “react”;
@@ -1021,7 +1041,7 @@ export default App;
 `customer-hook.js`文件
 
 ```js
-import { useState, useEffect } from “react”;
+import { useState, useEffect } from "react";
 
 const useList = () => {
   const [list, setList] = useState(null);
@@ -1056,7 +1076,8 @@ function ajax() {
 }
 ```
 
-上面将所有的数据操作封装到自定义hook当中, 最后暴露出添加,删除接口即可, 这对于代码后期的维护, 代码的重构, 增加新功能有很多好处, 原理简单易懂, 用处强大👍, 一定要利用好这个功能
+上面将所有的数据操作封装到自定义hook当中, 最后暴露出添加,删除接口即可, 这对于代码后期的维护, 代码的重构, 
+增加新功能有很多好处, 原理简单易懂, 用处强大👍, 一定要利用好这个功能
 
 
 
