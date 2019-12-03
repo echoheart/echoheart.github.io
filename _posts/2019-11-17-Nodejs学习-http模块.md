@@ -13,8 +13,6 @@ tags:
 
 # Nodejs学习-http模块
 
-#nodejs学习笔记#
-
 ## 六个学习目标
 
 - 根据不同的url返回不同的资源
