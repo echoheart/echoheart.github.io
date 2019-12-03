@@ -13,10 +13,10 @@ tags:
 # Nodejs学习-stream模块
 
 # stream-流
-stream可以认为是水流, 但是默认是没有水的
-stream.write可以在水流中添加水(数据)
-每次产生的小数据叫做chunk(块)
-产生数据的一端叫做source(源头)
+stream可以认为是水流, 但是默认是没有水的,
+stream.write可以在水流中添加水(数据),
+每次产生的小数据叫做chunk(块),
+产生数据的一端叫做source(源头),
 得到数据的一端叫做sink(水池)
 
 看这段代码
@@ -106,15 +106,19 @@ console.log('启动监听');
 
 ## Readable Stream & Writable Stream
 - Readable Stream
+
     - 事件: `data` `end``error``close` `readable`
-    重点看一下`data`和`end`两个事件,监听`data`事件可以获取到每		次传输的数据, 监听`end`事件可以得知结束通知
+    
+    重点看一下`data`和`end`两个事件,监听`data`事件可以获取到每次传输的数据, 监听`end`事件可以得知结束通知
     监听`readable`可以得知当前是否可读
     - 方法: `pipe``wrap``destroy``read``resume``pause`…
+    
     这里主要了解一下`pipe`管道, `pause`暂停`resume`恢复
 
 - Writable Stream
 
     - 事件: `drain``finish``error``close`
+    
     主要了解一下`drain`这个事件, 这个单词的中文含义是**流干**
     什么意思呢, 看一段代码
     
@@ -223,6 +227,7 @@ read.on('data', (chunk) => {
 
 
 ## 四种流
+
 - Writable
 - Readable
 - Duplex(双向流)
@@ -230,11 +235,11 @@ read.on('data', (chunk) => {
 
 前两种前面提到过了, 说一下第三第四种
 
-	- Duplex
-	也就是可以一边读一边写的流, 这两种同时读写流是互不影响的
-	- Transform
-	就是一种转换流, 在中间做一些处理
-	可以理解成类似 less 转 css
+- Duplex
+也就是可以一边读一边写的流, 这两种同时读写流是互不影响的
+- Transform
+就是一种转换流, 在中间做一些处理
+可以理解成类似 less 转 css
 
 举个例子
 实现进度条(打点)
