@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      CSS3变形-transition
-subtitle:   CSS3变形-transition
+title:      CSS3-transition
+subtitle:   CSS3-transition
 date:       2019-12-07
 author:     limantang
 header-img: img/post-bg-ios9-web.jpg
