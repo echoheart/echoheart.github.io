@@ -194,6 +194,6 @@ new Promise的函数参数是立即执行的
 
 
 
-[The Node.js Event Loop, Timers, and process.nextTick() | Node.js](https://nodejs.org/de/docs/guides/event-loop-timers-and-nexttick/)
+[TheNode.jsEventLoop](https://nodejs.org/de/docs/guides/event-loop-timers-and-nexttick/)
 
 建议看英文原版的, 这样应该可以理解的更好一些
