@@ -412,6 +412,8 @@ document.body.appendChild(node);
 
 **以上只是实现了简单的FunctionComponent**
 
+源码地址
+[react-theory/index.js at master · echoheart/react-theory · GitHub](https://github.com/echoheart/react-theory/blob/master/src/react-mount/index.js)
 
 
 
