@@ -1,10 +1,10 @@
 # Site settings
-title: echo's Blog
+title: Neo
 SEOTitle: 李满堂的博客
 header-img: img/post-bg-js-version.jpg
 email: limantang01@gmail.com
 description: "Do wonderful things😃"
-keyword: "李满堂的博客, limantang, 李满堂, web, javascript, echo"
+keyword: "李满堂的博客, limantang, 李满堂, web, javascript, neo"
 url: "https://neo-to.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/neo-to/myBlog" # you code repository
