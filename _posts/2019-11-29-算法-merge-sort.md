@@ -226,4 +226,4 @@ const merge = (a, start, middle, end) => {
 
 **源码地址**
 
-[math-blog-code/merge-sort at master · echoheart/math-blog-code · GitHub](https://github.com/echoheart/math-blog-code/tree/master/merge-sort)
+[math-blog-code/merge-sort at master · neo-to/math-blog-code · GitHub](https://github.com/neo-to/math-blog-code/tree/master/merge-sort)

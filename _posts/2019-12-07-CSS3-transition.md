@@ -34,7 +34,7 @@ transition允许CSS的属性值在一定时间内平滑的由开始状态值过�
 
 github地址
 
-[blog-source-code/index.html at master · echoheart/blog-source-code · GitHub](https://github.com/echoheart/blog-source-code/blob/master/src/css-transtion/index.html)
+[blog-source-code/index.html at master · neo-to/blog-source-code · GitHub](https://github.com/neo-to/blog-source-code/blob/master/src/css-transtion/index.html)
 
 ```html
 <!DOCTYPE html>

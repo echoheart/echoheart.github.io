@@ -104,6 +104,6 @@ alternate动画播放为偶次则向前播放, 奇数次数则是反向播放
 
 github代码
 
-[blog-source-code/index.html at master · echoheart/blog-source-code · GitHub](https://github.com/echoheart/blog-source-code/blob/master/src/css-animation/index.html)
+[blog-source-code/index.html at master · neo-to/blog-source-code · GitHub](https://github.com/neo-to/blog-source-code/blob/master/src/css-animation/index.html)
 
 

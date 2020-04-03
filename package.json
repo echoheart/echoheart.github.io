@@ -3,12 +3,12 @@
     "title": "myBlog",
     "author": "BY <limantang01@gmail.com>",
     "version": "1.7.0",
-    "homepage": "http://echoheart.github.io",
+    "homepage": "http://neo-to.github.io",
     "repository": {
         "type": "git",
-        "url": "https://github.com/echoheart/echoheart.github.io"
+        "url": "https://github.com/neo-to/neo-to.github.io"
     },
-    "bugs": "https://github.com/echoheart/echoheart.github.io/issues",
+    "bugs": "https://github.com/neo-to/neo-to.github.io/issues",
     "devDependencies": {
         "grunt": "~0.4.5",
         "grunt-contrib-less": "~0.11.4",

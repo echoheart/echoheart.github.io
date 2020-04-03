@@ -70,7 +70,7 @@ tags:
 
 ## 生命周期图
 
-![](https://www.echoheart.cn/img/react-life-cycle.jpg)
+![](https://www.neo-to.cn/img/react-life-cycle.jpg)
 
 ## 代码示例
 ```jsx
@@ -166,7 +166,7 @@ export default LifeCycle;
 
 **代码示例**
 
-[react-theory/life.js at master · echoheart/react-theory · GitHub](https://github.com/echoheart/react-theory/blob/master/src/class-life-cycle/life.js)
+[react-theory/life.js at master · neo-to/react-theory · GitHub](https://github.com/neo-to/react-theory/blob/master/src/class-life-cycle/life.js)
 
 # React16生命周期函数变化
 
@@ -202,7 +202,7 @@ export default LifeCycle;
 
 ## react16生命周期图
 
-![](https://www.echoheart.cn/img/react16-life-cycle.jpg)
+![](https://www.neo-to.cn/img/react16-life-cycle.jpg)
 
 
 
